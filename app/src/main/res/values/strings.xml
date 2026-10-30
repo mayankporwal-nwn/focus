@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FocusLock</string>
+    <string name="accessibility_description">Optional app-limit enforcement: monitors foreground app/window changes to return selected apps to Home when a daily limit is used. Does not read screen contents. Can be disabled in Android Settings.</string>
+</resources>
