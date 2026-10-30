@@ -38,7 +38,10 @@ public final class Ui {
         LinearLayout.LayoutParams lp=new LinearLayout.LayoutParams(-1,-2);lp.setMargins(0,dp(c,7),0,dp(c,7));parent.addView(card,lp);return card;
     }
     public static Button button(Context c,String txt,boolean primary) {
-        Button b=new Button(c);b.setText(txt);b.setTextAllCaps(false);b.setTextSize(14);
+        Button b = new Button(c);
+        b.setText(txt);
+        b.setAllCaps(false);
+        b.setTextSize(14);
         b.setTextColor(primary?Color.WHITE:TEAL);
         b.setBackground(shape(primary?TEAL:PALE,13,c));
         b.setPadding(dp(c,10),dp(c,2),dp(c,10),dp(c,2));
